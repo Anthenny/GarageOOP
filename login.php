@@ -2,23 +2,7 @@
     require_once 'classes/user.class.php';
     require_once 'classes/dbh.class.php';
     require_once 'classes/uservalidator.class.php';
-?>
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="login.css">
-
-    <title>Login | Klant</title>
-  </head>
-  <body>
-
-  <?php 
+    require_once 'templates/header.php';
 
     if(isset($_POST['login'])){
       //validate entries
@@ -32,7 +16,7 @@
               $user->loginUser($name, $pwd);
           }
     }
-      ?>
+?>
     <div class="container-1">
       <h2>Login formulier</h2>
         <form class="form-container-1" action="<?php echo $_SERVER ['PHP_SELF'] ?>" method="POST">
@@ -52,5 +36,6 @@
         </form>
       
     </div>
-  </body>
-</html>
+<?php
+  require_once 'templates/footer.php';
+?>

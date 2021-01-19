@@ -35,7 +35,6 @@
             </div>
         </div>
     </nav>
-    <div class="container">
         <!-- Einde navigatie menu -->
 </body>
 </html>
