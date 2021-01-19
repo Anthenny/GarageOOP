@@ -12,7 +12,7 @@
         integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <!-- Persoonlijke Css -->
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="login.css">
+    
     <title>CRUD | Klant</title>
 </head>
 
@@ -28,9 +28,10 @@
                 <div class="navbar-nav">
                     <a href="createKlant.php" class="nav-item nav-link">Maak klant aan</a>
                     <a href="readKlant.php" class="nav-item nav-link">Klanten</a>
+                    <a href="createAuto.php" class="nav-item nav-link">Maak auto aan</a>
+                    <a href="readAuto.php" class="nav-item nav-link">Auto's</a>
                     <a href="signup.php" class="nav-item nav-link">Registreer</a>
                     <a href="login.php" class="nav-item nav-link">Login</a>
-                    <a href="indexAuto.php" class="nav-item nav-link">Auto</a>
                 </div>
             </div>
         </div>
