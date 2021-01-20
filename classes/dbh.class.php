@@ -2,7 +2,7 @@
     class Dbh {
         private $host = 'localhost';
         private $user = 'root';
-        private $pwd = '';
+        private $pwd = 'Anthennyanna1997';
         private $dbName = 'garage';
 
         public function connect(){

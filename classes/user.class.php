@@ -8,7 +8,7 @@ class User extends Dbh {
             $sql = "INSERT INTO logingegevens(userName, userEmail, userPwd) VALUES (?, ?, ?)";
             $stmt = $this->connect()->prepare($sql);
             $stmt->execute([$name, $email, $pwd]);
-            header('location: ./login.php');
+            header('location: login.php');
         }
 
         public function emptyInputLogin($name, $pwd){
@@ -36,7 +36,8 @@ class User extends Dbh {
                     header('location: succes.php');
                 }
                 }else{
-                    header('location: login.php');
+                    
+                    header('location: login.php?error=verkeerdelogin');
                 }
         }
 }
