@@ -30,7 +30,7 @@
                     <a href="readKlant.php" class="nav-item nav-link">Klanten</a>
                     <a href="createAuto.php" class="nav-item nav-link">Maak auto aan</a>
                     <a href="readAuto.php" class="nav-item nav-link">Auto's</a>
-                    <a href="signup.php" class="nav-item nav-link">Registreer</a>
+                    <a href="signup.php" class="nav-item nav-link">Registreren</a>
                     <a href="login.php" class="nav-item nav-link">Login</a>
                 </div>
             </div>
